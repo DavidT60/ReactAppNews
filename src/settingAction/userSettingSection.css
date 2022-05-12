@@ -1,0 +1,67 @@
+.user-action-setting-closed{
+    display: flex;
+    position: fixed;
+    background-color: #000000bb;
+    border-radius: 10px;
+    color: white;
+    top: -100pc;
+    left: 170px;
+    width: 100pc;
+    height: 100%;;
+    opacity: 0.5;
+    transition: all 0.7s;;
+}
+.user-action-setting{
+    display: flex;
+    position: fixed;
+    background-color: #000000;
+    border-radius: 5px;
+    color: white;
+    left: 0px;
+    top: 5px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s;
+
+}
+
+.cover-size-data{
+    width: 1px;
+    height: 2px;
+    background-color: rgb(0, 255, 0);
+    transition: all 0.7s;
+
+}
+
+
+@media screen and (min-width: 480px) {
+    .user-action-setting{
+        display: flex;
+        position: fixed;
+        background-color: #000000bb;
+        border-radius: 5px;
+        color: white;
+        top: 5px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        padding-left: 35%;
+        transition: all 0.7s;
+    
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .user-action-setting{    
+        display: flex;
+        position: fixed;
+        background-color: #000000bb;
+        border-radius: 5px;
+        color: white;
+        left: 0px;
+        top: 5px;
+        width: 100%;
+        height: 100%;
+    }
+}
