@@ -77,7 +77,7 @@ class SectionSetting extends Component {
 // setState
 let dataStored = { data: false, statusBar: false }
 let cachetDataSaved = []
-let actionSettingData = []
+// let actionSettingData = []
 function SettingUseUi(props) {
     const [action, setAction] = useState({ currentPostionOpen: false, dataActon: dataStored.data });
     console.log(action)
